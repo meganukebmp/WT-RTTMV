@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>WT-RTTMV</title>
+</head>
+<body>
+    <!--
+        WarThunder exposes quite a bit of information on localhost (usually port 8111)
+        These are relative paths along with descriptions
+        /mission.json - The mission objectives (hunt ground targets, capture area, etc)
+        /map_obj.json - The various objects on top of the map. Airstrips, players, enemies, etc
+        /map_info.json - information about the current map. The grid size, the grid steps (for
+                         moving map objects) and map generation (for maps with multiple versions
+        /gamechat     - The game chat. Optionally can be passed (?lastId=#) to display only messages
+                        from that ID forward
+        /hudmsg       - The small text that appears in the bottom of the hud (engine died, asymetric
+                        flap extension, etc). Mandatory ?lastEvt and ?lastDmg can be passed to get
+                        only events from that point forward.
+        /indicators   - Everything that can appear in the cockpit (speed, compass, clock, axis, etc)
+        /state        - Expands on indicators. Gives the current states of various indicators.
+                        (Flap level, current RPM, gear expansion level, etc)
+        /map.img      - A jpeg of the map. Optional ?gen parameter for different variations of maps
+                        (Get this value from map_info.json)
+        /loc/map/primary_objectives   - String. Title of objectives.
+        /loc/map/secondary_objectives - String. Title of objectives.
+    -->
+</body>
+</html>
